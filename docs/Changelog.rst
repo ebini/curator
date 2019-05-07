@@ -3,6 +3,14 @@
 Changelog
 =========
 
+5.7.7 (? ? ?)
+-------------
+
+**Documentation**
+
+  * Fix default value for ``exclude`` for ``count`` filter. PR #1397
+    (fabianonunes).
+
 5.7.6 (6 May 2019)
 ------------------
 
