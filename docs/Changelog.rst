@@ -14,6 +14,7 @@ Changelog
     ``es_repo_mgr``.
   * Removed tests for all 5.x branches of Elasticsearch but the final (5.6).
   * Added tests for missing 7.x branches of Elasticsearch
+  * Remove tests for Python 3.5 (deprecated)
 
 **Bug Fixes**
 
