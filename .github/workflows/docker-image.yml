@@ -46,9 +46,9 @@ jobs:
           ebini/curator:v0.1
           ghcr.io/ebini/curator:latest
           ghcr.io/ebini/curator:v0.1
-        # build on feature branches, push only on main branch
-        # push: ${{ github.ref == 'refs/heads/main' }}
-        push: true
+        # build on feature branches, push only on master branch
+        push: ${{ github.ref == 'refs/heads/master' }}
+        # push: true
 
     - name: Image digest
       run: echo ${{ steps.docker_build.outputs.digest }}
