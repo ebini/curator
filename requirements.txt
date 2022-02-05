@@ -1,5 +1,5 @@
 voluptuous>=0.12.1
-elasticsearch>=7.12.0,<8.0.0
+elasticsearch==7.13.4
 urllib3==1.26.5
 requests>=2.25.1
 boto3>=1.17.57
